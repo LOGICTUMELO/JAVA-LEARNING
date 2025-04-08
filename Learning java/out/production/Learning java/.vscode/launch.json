@@ -1,0 +1,147 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main1",
+            "request": "launch",
+            "mainClass": "Main1",
+            "projectName": "Learning java_f379284e"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Learning java_f379284e"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "Learning java_f379284e"
+        },
+        {
+            "type": "java",
+            "name": "BookStore",
+            "request": "launch",
+            "mainClass": "BookStore",
+            "projectName": "Learning java_f379284e"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CompoundIfElse",
+            "request": "launch",
+            "mainClass": "CompoundIfElse",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "DoWhile",
+            "request": "launch",
+            "mainClass": "DoWhile",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "ForLoop",
+            "request": "launch",
+            "mainClass": "ForLoop",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "GuessingGame",
+            "request": "launch",
+            "mainClass": "GuessingGame",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "IfElseIf",
+            "request": "launch",
+            "mainClass": "IfElseIf",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "IfElseStat",
+            "request": "launch",
+            "mainClass": "IfElseStat",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "IfelseIfelse",
+            "request": "launch",
+            "mainClass": "IfelseIfelse",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "Javalogo",
+            "request": "launch",
+            "mainClass": "Javalogo",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "LoopingL",
+            "request": "launch",
+            "mainClass": "LoopingL",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "Method1",
+            "request": "launch",
+            "mainClass": "Method1",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "Method2",
+            "request": "launch",
+            "mainClass": "Method2",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "SimpleCal",
+            "request": "launch",
+            "mainClass": "SimpleCal",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "SimpleIf",
+            "request": "launch",
+            "mainClass": "SimpleIf",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "Switcher",
+            "request": "launch",
+            "mainClass": "Switcher",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        },
+        {
+            "type": "java",
+            "name": "Whilel",
+            "request": "launch",
+            "mainClass": "Whilel",
+            "projectName": "LEARNING JAVA_f4b6ec1b"
+        }
+    ]
+}
