@@ -28,10 +28,26 @@ import java.util.Scanner;
     }
 
     public static String highestPercentage(String[] batchCodes,double[] PercentageOfpositives){
-        String final_batch_code="";
 
-        return final_batch_code;
+        for(int i=0;i<PercentageOfpositives.length-1;i++){
+            int maxIndex=i;
+                for (int x=i+1;x<PercentageOfpositives.length;x++){
+                    if(PercentageOfpositives[i]>PercentageOfpositives[maxIndex]){
+                    maxIndex=x;
+               }
+            }
+                double temp=PercentageOfpositives[i];
+                PercentageOfpositives[i]=PercentageOfpositives[maxIndex];
+                PercentageOfpositives[maxIndex]=temp;
+
+                String tempCode=batchCodes[i];
+                batchCodes[i]=batchCodes[maxIndex];
+                batchCodes[maxIndex]=tempCode;
+        }
+
+        return batchCodes[0];
     }
+
 
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -61,6 +77,12 @@ import java.util.Scanner;
         int weekNumber=input.nextInt();
 
         int result=testsDoneInWeek(batchCode,testsDone,weekNumber,monthNumber);
+
+        double[] percentages=percentagePositive(testsDone,positiveResults);
+
+        String highest=highestPercentage(batchCode,percentages);
+
+        System.out.println("The highest percentage batch is: "+highest);
 
         if(result!=-1){
             System.out.print("Test done in M"+monthNumber+"W"+weekNumber+": "+result);
